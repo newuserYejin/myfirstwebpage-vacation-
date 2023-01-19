@@ -1,0 +1,22 @@
+#page_ex p{
+	font-weight: normal;
+}
+#page_ex img{
+	width: 500px;
+	height: 300px;
+	border-radius: 50px;
+}
+#page_ex img:hover{
+	transform: translateX(360px);
+	transition-duration: 2s;
+}
+#page_ex hr, #copyright hr{
+	border: 0;
+	height: 2px;
+	background-color: black;
+}
+#title p {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
